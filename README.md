@@ -1,6 +1,6 @@
 # Repair of a System76 Launch v1.3
 
-The great thing about an open source hardware development like is the easy
+The great thing about an open source hardware development is the easy
 access to schematics and PCB layout.
 The entire keyboard project is available here: https://github.com/system76/launch
 
@@ -86,7 +86,7 @@ external source to AVR_VBUS (U22 pin 1) and the GND.
 ![External AVR_VBUS](/images/removed_u22_external_AVR_VBUS.jpeg?raw=true)
 
 With the external supply of AVR_VBUS the current does not exceed 15 mA which is
-way below the AP22811 threshold.
+way below the AP22811 threshold (min 2.2 A).
 In addition to that the keyboard device is available again:
 
 
@@ -97,5 +97,21 @@ In addition to that the keyboard device is available again:
             |__ Port 5: Dev 86, If 0, Class=Human Interface Device, Driver=usbhid, 12M
             |__ Port 5: Dev 86, If 1, Class=Human Interface Device, Driver=usbhid, 12M
 
+
+At this point only the **Fn** and the **0** keys are mounted on the device (to
+disable the blinding background LEDs).
+Pressing the zero key on the keyboard produces a **0** on the screen.
+The assumption about the broken parts seams to hold.
+
+## Quick and Dirty Repair
+
+Until the replacements parts are available a fast fix is performed.
+The external voltage supply is removed and the working U10 is soldered to the
+position of U22.
+Afterwards the system behaves the same way as described above and at least the
+keyboard is working again.
+But all USB hub ports are now unavailable.
+
+## Complete Repair
 
 
