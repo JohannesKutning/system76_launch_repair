@@ -108,9 +108,14 @@ The assumption about the broken parts seams to hold.
 Until the replacements parts are available a fast fix is performed.
 The external voltage supply is removed and the working U10 is soldered to the
 position of U22.
-Afterwards the system behaves the same way as described above and at least the
-keyboard is working again.
+
+![U10 to U22](/images/replaced_u22_with_u10.jpeg?raw=true)
+
+Afterwards the system behaves the same way as described in the confimation
+section and at least the keyboard is working again.
 But all USB hub ports are now unavailable.
+
+![Quick and Dirty Complete](/images/quick_and_dirty_complete.jpeg?raw=true)
 
 ## Complete Repair
 
