@@ -114,4 +114,7 @@ But all USB hub ports are now unavailable.
 
 ## Complete Repair
 
+Getting spare parts for the AP22811 is hard.
+Fortunately this thread https://github.com/greatscottgadgets/luna/issues/171
+lists multiple substitution parts.
 
