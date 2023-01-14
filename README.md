@@ -123,3 +123,9 @@ Getting spare parts for the AP22811 is hard.
 Fortunately this thread https://github.com/greatscottgadgets/luna/issues/171
 lists multiple substitution parts.
 
+After selecting and ordering the substitusion parts AP22804AW5 the full repair
+and some waiting the full repair is finally possible.
+All five AP22811 (U9, U10, U20, U22 and U23) are removed with hot air and the
+subsitution parts are soldered in.
+Now the keyboard and all four USB ports are working again.
+
